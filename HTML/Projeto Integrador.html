@@ -82,12 +82,13 @@
         input[type="tel"] {
             padding: 10px;
             font-size: 16px;
-            border: 1px solid #000000;
-            border-radius: 5px;
+            border: 2px solid #000000;
+            border-radius: 15px;
             outline: none;
             width: 200px;
             transition: border-color 0.3s;
-            margin-top: 1.5rem;
+            margin-top: 1.25rem;
+            margin-left: 1rem;
         }
         
         input[type="tel"]::placeholder {
@@ -99,16 +100,26 @@
         input[type="tel"]:focus {
             border-color: #ff0000;
         }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: full-width;
+        }
+        
+        .au {
+            margin-left: rem;
+        }
     </style>
 </head>
 
 <body>
     <div id="navbar">
         <a href="https://google.com">
-            <img src="logo.png" alt="Logo Site" width="50" height="50"></a>
+            <img src="logo.png" alt="Logo Site" width="50" height="50" class="Au"></a>
         <form action="/action_page.php">
             <input type="tel" placeholder="Procurar">
-            <input type="submit">
         </form>
 
         </header>
@@ -119,10 +130,11 @@
 
 <section class="main-content ">
     <article class="featured-show ">
-        <img src="esperando.gif" alt="Show Thumbnail">
-        <div class="show-info ">
-            <h2>Nome do Show</h2>
-            <p>Descrição breve do show. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        <img src="alpha-wolf.gif" alt="Show Thumbnail" class="wolf">
+        <div class=" show-info ">
+            <h2>Wolf Gameplays</h2>
+            <p>Descrição breve do show.
+                <p></p>
 
                 <a href="# " class="btn ">Assistir Agora</a>
         </div>
@@ -146,9 +158,9 @@
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
+            document.getElementById("navbar ").style.top = "0 ";
         } else {
-            document.getElementById("navbar").style.top = "-100px";
+            document.getElementById("navbar ").style.top = "-100px ";
         }
         prevScrollpos = currentScrollPos;
     }

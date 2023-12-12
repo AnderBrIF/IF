@@ -43,9 +43,10 @@ nav a {
 
 .featured-show img {
     width: 300px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 .show-info {
