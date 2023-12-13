@@ -98,17 +98,3 @@ VALUES (1, 1, 1);
 
 INSERT INTO Usuario_Assistiu (ID_Usuario_Assistiu, ID_conteudo, ID_Usuario)
 VALUES (2, 2, 1);
-
-
-SELECT * FROM Assinatura WHERE Data_Inicio BETWEEN '2023-01-01' AND '2023-06-30';
-
-SELECT * FROM usuario WHERE Nome LIKE '%a%';
-
-SELECT * FROM Perfil WHERE ID_Usuario IN (1, 2, 3);
-
-SELECT * FROM Conteudo WHERE Titulo = 'Filme A';
-
-SELECT * FROM Assinatura WHERE Valor > 10.00;
-SELECT * FROM Conteudo WHERE Classificacao_etaria >= 18;
-SELECT * FROM usuario WHERE ID_Usuario <= 5;
-SELECT * FROM Perfil WHERE ID_Perfil != 3;
