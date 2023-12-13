@@ -1,5 +1,5 @@
 # STREAMING
-**Texto Padrão sobre Streaming:**
+**Breve fala sobre Streaming:**
 
 O streaming, uma revolução na forma como consumimos conteúdo digital, tornou-se uma parte integral da vida moderna. Essa tecnologia permite que os usuários acessem e desfrutem de uma variedade incrível de vídeos, músicas e outros tipos de conteúdo de forma instantânea, sem a necessidade de downloads demorados. Ao contrário dos métodos tradicionais, o streaming oferece uma experiência contínua e sob demanda, adaptando-se às preferências e horários dos consumidores.
 
